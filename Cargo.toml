@@ -1,0 +1,13 @@
+[package]
+name = "bindkey"
+version = "0.1.0"
+authors = ["Konstantin Zverev <object905@gmail.com>"]
+
+[lib]
+name = "bindkey"
+path = "./src/lib.rs"
+
+[dependencies]
+lazy_static = "0.2"
+x11-dl = "2.13"
+fnv = "1.0"

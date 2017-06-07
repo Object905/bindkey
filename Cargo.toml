@@ -1,7 +1,12 @@
 [package]
 name = "bindkey"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Konstantin Zverev <object905@gmail.com>"]
+description = "Binds rust functions to keys with xlib"
+homepage = "https://github.com/Object905/bindkey"
+repository = "https://github.com/Object905/bindkey"
+keywords = ["xlib", "x11", "keybinder"]
+license = "MIT"
 
 [lib]
 name = "bindkey"

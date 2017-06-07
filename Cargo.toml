@@ -8,6 +8,8 @@ name = "bindkey"
 path = "./src/lib.rs"
 
 [dependencies]
-lazy_static = "0.2"
-x11-dl = "2.13"
 fnv = "1.0"
+
+[dependencies.x11]
+version = "2.14"
+features = ["xlib"]
